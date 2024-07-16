@@ -1,0 +1,33 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+     grid-template-rows: 1fr 2fr 3fr; /* Adjust row height as needed */
+    gap: 10px; /* Space between grid items */
+}
+
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+.med{
+    background-color: #4CAF50;
+}
+
+@media only screen and (max-width: 500px){
+    .med{
+        background-color:red;
+    }}
